@@ -193,6 +193,7 @@ body {
 .waitlist-form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;   /* 🔥 THIS forces new lines */
   gap: 0.75rem;
 }
 
@@ -484,4 +485,8 @@ body {
   .card.glass {
     padding: 1.1rem 1.1rem 1.3rem;
   }
+}
+
+.form-row-captcha {
+  width: 100%;
 }
