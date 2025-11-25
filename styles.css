@@ -485,3 +485,22 @@ body {
     padding: 1.1rem 1.1rem 1.3rem;
   }
 }
+
+/* Force captcha to break to a new line */
+.form-row-captcha {
+  width: 100%;
+  display: block !important;
+  margin-top: 0.8rem;
+}
+
+/* Force the Turnstile box to behave like a block */
+.form-row-captcha .cf-turnstile {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  text-align: left;
+}
+
+.break-line {
+  flex-basis: 100%;
+}
